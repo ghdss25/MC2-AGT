@@ -1,0 +1,21 @@
+  $idAtividadeEdit = @$_GET['alterarAtividade'];
+
+  if ($idAtividadeEdit != 0) {
+
+    $res = $dbcon->query("SELECT * FROM atividade WHERE id = ".$idAtividadeEdit); 
+
+    while($dados = $res->fetch_array()){
+
+      $statusAtividadeEdit = $dados['ativi_status'];
+      $nomeAtividadeEdit = $dados['ativi_nome'];
+      $descricaoAtividadeEdit = $dados['ativi_descricao'];
+      $inicioAtividadeEdit = $dados['ativi_inicio'];
+      $terminoAtividadeEdit = $dados['ativi_termino'];
+
+    }
+
+  } else {
+
+    $idAtividadeEdit = 0;
+
+  }

@@ -1,0 +1,52 @@
+* {
+
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+
+    background-image: url("../img/download.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+form {
+
+    color: antiquewhite;
+}
+
+.container {
+
+    color: rgb(255, 255, 255);
+}
+
+.legend {
+
+    color: aliceblue;
+}
+
+.controls {
+
+    margin: 10px;
+}
+
+.control-group {
+
+    color: rgb(4, 83, 255);
+}
+
+.help-block {
+    
+   background-color: rgb(255, 254, 251);
+   border-color: aqua;
+   text-align: center;
+}
+
+
+
+
+
+

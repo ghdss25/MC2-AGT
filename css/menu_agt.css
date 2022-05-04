@@ -1,0 +1,19 @@
+* {
+
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+
+    background-image: url("../img/download.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.container{
+
+    color: aquamarine;
+}
